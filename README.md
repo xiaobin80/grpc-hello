@@ -16,11 +16,11 @@ sudo apt-get install autoconf automake libtool curl make g++ unzip
 sudo apt install docker.io
 ```
 ### putty(win)
-down protobuf [v3.9.0](https://github.com/protocolbuffers/protobuf/releases/download/v3.9.0/protobuf-cpp-3.9.0.tar.gz).
+down protobuf [v3.9.1](https://github.com/protocolbuffers/protobuf/releases/download/v3.9.1/protobuf-cpp-3.9.1.tar.gz).
 ```bash
-scp f:\docker-soft\protobuf-cpp-3.9.0.tar.gz tdtc@192.168.188.11:/home/tdtc/
+scp f:\docker-soft\protobuf-cpp-3.9.1.tar.gz tdtc@192.168.188.11:/home/tdtc/
 
-scp f:\docker-soft\go1.12.7.linux-amd64.tar.gz tdtc@192.168.188.11:/home/tdtc
+scp f:\docker-soft\go1.12.9.linux-amd64.tar.gz tdtc@192.168.188.11:/home/tdtc
 ```
 
 ## Protobuf
