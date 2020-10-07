@@ -18,6 +18,7 @@ git clone https://github.com/google/go-genproto.git $GOPATH/src/google.golang.or
 
 ## run
 ```bash
+go mod init
 make build
 make run
 ```
