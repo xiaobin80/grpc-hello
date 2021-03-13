@@ -3,7 +3,7 @@ simple grpc-go demo.
 	
 ## Host environment settings
 
-### install ubuntu18.04(live)
+### install ubuntu20.04(live)
 mirror:
 https://mirrors.aliyun.com/ubuntu/
 
@@ -16,11 +16,11 @@ sudo apt-get install autoconf automake libtool curl make g++ unzip
 sudo apt install docker.io
 ```
 ### putty(win)
-down protobuf [v3.13.0](https://github.com/protocolbuffers/protobuf/releases/download/v3.13.0/protobuf-cpp-3.13.0.tar.gz).
+down protobuf [v3.15.6](https://github.com/protocolbuffers/protobuf/releases/download/v3.15.6/protobuf-cpp-3.15.6.tar.gz).
 ```bash
-pscp e:\docker-soft\protobuf-cpp-3.13.0.tar.gz tdtc@192.168.188.11:/home/tdtc/
+pscp e:\docker-soft\protobuf-cpp-3.15.6.tar.gz tdtc@192.168.188.11:/home/tdtc/
 
-pscp e:\docker-soft\go1.14.9.linux-amd64.tar.gz tdtc@192.168.188.11:/home/tdtc
+pscp e:\docker-soft\go1.15.10.linux-amd64.tar.gz tdtc@192.168.188.11:/home/tdtc
 ```
 
 ## Protobuf
