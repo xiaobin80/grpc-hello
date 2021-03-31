@@ -1,6 +1,6 @@
 # grpc-hello
 simple grpc-go demo.
-	
+
 ## Host environment settings
 
 ### install ubuntu20.04(live)
@@ -33,6 +33,41 @@ $ sudo ldconfig # refresh shared library cache.
 ```
 
 ## Down lib
+
+### [install go on ubuntu](https://tecadmin.net/install-go-on-ubuntu/)
+
+down [Go](https://dl.google.com/go/go1.15.10.linux-amd64.tar.gz)
+```bash
+sudo mkdir -p /usr/local/go
+sudo tar zxvf go1.15.10.linux-amd64.tar.gz -C /usr/local/go
+```
+rename:
+```bash
+cd /usr/local/go
+sudo mv go 1.15
+```
+
+#### set path
+```bash
+vi ~/.bashrc
+```
+
+```bash
+export GOROOT=/usr/local/go/1.15
+
+export GOPATH=/home/tdtc/go
+
+PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+```
+
+```bash
+source ~/.bashrc
+```
+
+test:
+```bash
+go version
+```
 
 ### set proxy(ubuntu)
 ```bash
